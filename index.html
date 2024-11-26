@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lannding_page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="container1">
+        <div class="nav-logo">
+            <h1 class="logo"><span id="S">S</span><span id="H">H</span><span id="F">F</span></h1>
+        </div>
+        <nav class="nav">
+            <li><h1>SERVEPR<span id="span">O</span> &nbsp;HOSPITALITY & FACILITY PVT.LTD </h1></li>
+            <ul id="sideMenu">
+               
+                <li><a href="#" id="li">Home</a></li>
+                <li><a href="#" id="li">About</a></li>
+                <li><a href="#" id="li">Service</a></li>
+                <li><a href="#contact" id="li">Contact Us</a></li>
+                <i class="fa-regular fa-circle-xmark " id="fas" onclick="Closemenu()"></i>
+            </ul>
+            <i class=" fa-solid fa-bars fas" id="fas" onclick="Openmenu()"></i>
+        </nav>
+    
+    <div id="para" class="container">
+        <h3 class="h3">About</h3>
+        <p class="para"> <span id="facility">Servepro </span> Hospitality & Facility Private Limited is a professionally equipped company engaged in Facility management services in and around Mumbai, Pune, Dhule and rests Maharashtra. Servepro <span id="facility">Hospitality</span> & Facility Private Limited stands for the highest standards of quality in providing integrated facility <span id="facility"> management </span> solutions to its clients. It has a service reputation for uncompromising professionalism in everything we do and is earned day by day serving our clients and earning their trust. We are basically providing housekeeping service.</p>
+
+    </div>
+
+    <p>Services</p>
+    <div class="services">
+        <div class="box1 box">
+            <div class="box-content">
+            <div class="box-image " style="background-image: url('./img/carpet.jpg');"></div>
+            <h2 class="img-heading">Carpet cleaning</h2>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+            <div class="box-image " style="background-image: url('./img/hig-class-window-cleaning.jpg');"></div>
+            <h2 class="img-heading">Glass Cleaning</h2>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+            <div class="box-image " style="background-image: url('./img/taski.jpg');"></div>
+            <h2 class="img-heading">Floor cleaning</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- *********contact*********** -->
+     <div class="contact" id="contact">
+        <h3>Contact us</h3>
+        <div class="contact-deatil">
+            <a href="https://www.instagram.com/servepro7/?locale=kk-KZ&hl=af"><i id="icon" class="fa-brands fa-instagram" ></i></a>
+            <a href="https://www.facebook.com/serveprofacility/"> <i id="icon" class="fa-brands fa-facebook"></i></a>
+            <p class="icon-p"><a href="mailto:Serveprofacility@gmail.com"><i id="icon" class="fa-solid fa-envelope"></a></i>Serveprofacility@gmail.com</p>
+            <p class="icon-p"><i id="icon" class="fa-solid fa-phone"></i>9969369515</p>
+            
+        </div>
+     </div>
+    </header>
+    <script>
+        var sideMen=document.getElementById("sideMenu");
+        
+        function Openmenu(){
+            sideMenu.style.right="0"
+        }
+        function Closemenu(){
+            sideMenu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
